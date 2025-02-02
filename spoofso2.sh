@@ -78,8 +78,10 @@ clear_app_data() {
 
 handle_reboot() {
     echo -e "\n${CYAN}[?] Deseja reiniciar agora? (s/n)${RESET}"
-    read resposta
-    if [ "$resposta" = "s" ]; then
+    read -r resposta
+    resposta=$(echo "$resposta" | tr '[:upper:]' '[:lower:]' | xargs)
+
+    if [[ "$resposta" == "s" ]]; then
         echo -e "${GREEN}[*] Reiniciando o dispositivo...${RESET}"
         show_progress 3 "Reiniciando em: "
         su -c "reboot"

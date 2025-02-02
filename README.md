@@ -20,4 +20,4 @@ Caso ainda não tenha instalado, baixe uma das opções abaixo:
 2. Execute o seguinte comando para baixar e rodar o script:
 
    ```sh
-   curl -s https://github.com/FlaRlk/Spoofer-SO2/blob/main/spoofso2.sh | bash
+   curl -sL https://raw.githubusercontent.com/FlaRlk/Spoofer-SO2/main/spoofso2.sh | bash

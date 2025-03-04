@@ -4,8 +4,8 @@ Este script altera o **Android ID** do seu dispositivo e limpa os dados do Stand
 
 ## ⚠️ Requisitos
 
-- **Acesso ROOT** no dispositivo.
-- **Termux**, **MT Manager** instalados.
+- **Acesso ROOT** no Android.
+- **Termux**, ou **MT Manager** instalados.
 
 ## 📥 Instalação dos Terminais
 
@@ -16,7 +16,7 @@ Caso ainda não tenha instalado, baixe uma das opções abaixo:
 
 ## 🚀 Como Usar
 
-1. Abra o **Termux**, **MT Manager**.
+1. Abra o **Termux**, ou **MT Manager**.
 2. Execute o seguinte comando para baixar e rodar o script:
 
    ```sh
